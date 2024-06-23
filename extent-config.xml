@@ -1,0 +1,26 @@
+<extent-config>
+    <configuration>
+        <encoding>UTF-8</encoding>
+        <protocol>https</protocol>
+        <documentTitle>Automation Report</documentTitle>
+        <reportName>Extent Report</reportName>
+        <reportHeadline>Test Execution Report</reportHeadline>
+        <theme>standard</theme>
+        <enableOfflineMode>true</enableOfflineMode>
+        <chartVisibilityOnOpen>true</chartVisibilityOnOpen>
+    </configuration>
+    <test-view>
+        <headline>Test Summary</headline>
+        <showCategory>true</showCategory>
+        <showAuthor>true</showAuthor>
+        <showDevice>true</showDevice>
+    </test-view>
+    <details>
+        <headline>Test Details</headline>
+        <showTimeInfo>true</showTimeInfo>
+        <showStepDetails>true</showStepDetails>
+    </details>
+    <theme>
+        <dark>false</dark>
+    </theme>
+</extent-config>
