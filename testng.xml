@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="inetBankingv2">
 	<listeners>
-		<listener class-name="com.inetBanking.Utilities.Reporting"/>
+		<listener class-name="com.inetBanking.Utilities.Reporting" />
 	</listeners>
-    <test name="BankingApp Test">
+	<test name="BankingApp Test">
 		<parameter name="browser" value="chrome"></parameter>
-        <classes>
-			<class name="com.inetBankingV.testCases.TC_LoginTest_001"/>
-			<!--<class name="com.inetBankingV.testCases.TC_LoginTest_002"/>-->
-            <class name="com.inetBankingV.testCases.TC_AddNewCostomer_003"/>
-        </classes>
-    </test>
+		<classes>
+			<!-- Commented out TC_LoginTest_001 -->
+			<class name="com.inetBankingV.testCases.TC_LoginTest_001" />
+			<!-- Commented out TC_LoginTest_002 -->
+			<class name="com.inetBankingV.testCases.TC_LoginTest_002" />
+			<!-- Commented out TC_AddNewCostomer_003 -->
+			<class name="com.inetBankingV.testCases.TC_AddNewCostomer_003" />
+			<class name="com.inetBankingV.testCases.TC_EditCustomer_004" />
+		</classes>
+	</test>
 </suite>

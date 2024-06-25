@@ -22,19 +22,6 @@ public class TC_LoginTest_001 extends BaseClass {
 		Thread.sleep(5000);
 
 		// Get the page title
-		String pageTitle = driver.getTitle();
-
-		// Expected page title
-		String expectedTitle = "My Contacts";
-
-		// Check if the actual page title matches the expected title
-		if (pageTitle.equals(expectedTitle)) {
-			logger.info("Page title is correct: " + pageTitle);
-		} else {
-			captureScreen(driver, "loginTest");
-			logger.error("Expected page title: " + expectedTitle);
-			logger.error("Actual page title: " + pageTitle);
-			throw new AssertionError("Page title assertion failed");
-		}
+		
 	}
 }

@@ -69,13 +69,24 @@ public class BaseClass {
  		return (genratedString);
  	}
  	// To add randome number we have to use below user define function
+ 	public String randomFirstName() {
+ 		String genratedName = RandomStringUtils.randomAlphabetic(5);
+ 		return (genratedName);
+ 	}
+ 	
+ 	public String randomLastName() {
+ 		String genratedLastName = RandomStringUtils.randomAlphabetic(5);
+ 		return (genratedLastName);
+ 	}
+    
  	
  	public String randomeNumber() {
  		String gernatedNumber=RandomStringUtils.randomNumeric(10);
  		return(gernatedNumber);
  		
  	}
-    
+ 	
+ 	
     
     
 }
